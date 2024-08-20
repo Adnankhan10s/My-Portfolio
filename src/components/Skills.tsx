@@ -18,7 +18,7 @@ const Skills = () => {
             <h2 className='text-6xl font-bold mb-4'>What I Do </h2>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
                 {skillIcons.map((skill , index)=>(
-                    <div key={index} className='w-[160px] h-[160px] flex flex-col justify-between items-center bg-white/10 rounded-xl md:h-[220px] md:w-[220px]'>
+                    <div key={index} className='w-[160px] h-[160px] flex flex-col justify-center items-center bg-white/10 rounded-xl md:h-[220px] md:w-[220px]'>
                         {skill.icon}
                         <p className='mt-2'>{skill.label}</p>
                     </div>
